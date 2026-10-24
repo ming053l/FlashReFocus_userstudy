@@ -26,6 +26,8 @@ Only `docs/` is published. Researcher/model-label pages, the private codebook, l
 3. Commit the updated `docs/study.json` and wait for Pages to redeploy.
 4. Complete a test response and confirm it actually appears in the response spreadsheet before recruitment.
 
+The setup script creates the Form, its private spreadsheet, and a submission trigger. After setup, `答卷 Responses` shows each submission, `逐題 Answers` expands its 48 answers, `票數 Summary` aggregates votes, and `問題 Issues` reports duplicates or invalid submissions. Import the private model codebook to resolve candidate IDs to model names. The derived tabs can be downloaded as Excel/CSV; the original Form responses remain intact.
+
 The final page opens a prefilled Google Form; the participant presses Submit there. The site does not claim an external submission succeeded. Anonymous JSON/CSV backups remain available. No GitHub token, spreadsheet write credential or researcher secret belongs in this public repository.
 
 ## Study design
