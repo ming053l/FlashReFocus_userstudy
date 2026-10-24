@@ -3,8 +3,13 @@
   "mode": "pilot",
   "collection": {
     "type": "google-forms",
-    "viewUrl": "",
-    "entries": {}
+    "viewUrl": "https://docs.google.com/forms/d/e/1FAIpQLScQHRG_AktSHcnfNauf7PAfzsbe6zgoFYV56CTj71HubU3GIQ/viewform",
+    "entries": {
+      "session": "entry.2140394658",
+      "refocus": "entry.573577176",
+      "bokeh": "entry.1398481525",
+      "feedback": "entry.239945301"
+    }
   },
   "trials": [
     {
@@ -480,5 +485,5 @@
     "id": "curated-advantage-20261024-v1",
     "representativeRandomSample": false
   },
-  "protocolHash": "0c19980d11123f0b7b9ff06aff0f1ecef6d8e2ebca3449279a07d554e25fd5bb"
+  "protocolHash": "acc98abc2a8383fc4a16937f0639d0b3fc6d3af6f9a0bfd24db2d7f38bbaff70"
 }

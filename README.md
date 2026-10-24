@@ -17,9 +17,9 @@ Expected project URL once enabled:
 
 Only `docs/` is published. Researcher/model-label pages, the private codebook, local machine paths and responses are not included in this repository. All asset URLs are relative so the project subdirectory works.
 
-## Response collection is not connected yet
+## Response collection
 
-目前可試填並下載答案；**不會自動把答案交給研究者**。正式招募前，需要接好 Google Form 並驗證試算表收件。
+已設定 Google Form 收答。參與者完成網站後，仍須在已填好的 Google 表單按「提交」；下載答案並不等同提交。正式招募前，請實際試填並驗證試算表收件。以下是重設收答表單的步驟。
 
 1. Follow [admin/SETUP.md](admin/SETUP.md) to create the Form and spreadsheet in your own Google account.
 2. Use `python3 tools/configure_collection.py CONFIG.json` with the generated `CONFIG_FOR_CODEX` object.
