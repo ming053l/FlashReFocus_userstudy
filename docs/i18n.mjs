@@ -1,5 +1,6 @@
 // Shared participant/reviewer translations. Answer and candidate IDs stay language independent.
 const pairs = [
+['Nickname (required)','暱稱（必填）'],['Enter your nickname','請輸入暱稱'],['Use a nickname; you do not need to provide your real name.','請填寫暱稱，不需要提供真實姓名。'],['Please enter a nickname before submitting.','請先填寫暱稱再送出。'],
 ['Retrying image…','正在重新載入圖片…'],
 ['Image Refocusing Study','影像重新對焦研究'],['Image Refocusing','影像重新對焦'],['Study','研究'],['PILOT STUDY','先導研究'],['MODEL LABELS ON','顯示模型名稱'],
 ['Model Comparison · Researcher View','模型比較 · 研究者檢視'],['Loading study…','正在載入研究…'],['Visual preference study','視覺偏好研究'],['Anonymous comparisons · No model names shown','匿名比較 · 不顯示模型名稱'],['Researcher view · Model names shown','研究者檢視 · 顯示模型名稱'],
@@ -9,7 +10,7 @@ const pairs = [
 ['2 sections · 4 questions per comparison','共 2 個部分 · 每組比較有 4 題'],['About 8–12 minutes','約需 8–12 分鐘'],
 ['This is a pilot preview. Responses are submitted through Google Forms after you finish.','這是先導研究預覽。完成後，請透過 Google 表單送出答案。'],
 ['This is a pilot preview. Google Forms is not connected yet. You can try the full study and download your answers; nothing is sent to a researcher.','這是先導研究預覽，目前尚未連接 Google 表單。你可以體驗完整流程並下載答案；資料不會傳送給研究者。'],
-['I am at least 18, voluntarily agree to participate, and understand that I can stop at any time. My choices, comparison order, and viewing times will be recorded. No name or email is requested by this study.','我已年滿 18 歲，自願參與本研究，並了解可以隨時停止。研究會記錄我的選擇、比較順序及觀看時間，不會要求姓名或電子郵件。'],
+['I am at least 18, voluntarily agree to participate, and understand that I can stop at any time. My choices, comparison order, and viewing times will be recorded. A nickname is required; no real name or email is requested.','我已年滿 18 歲，自願參與本研究，並了解可以隨時停止。研究會記錄我的選擇、比較順序及觀看時間，須填寫暱稱，不會要求真實姓名或電子郵件。'],
 ['Resume study','繼續作答'],['Begin study','開始作答'],['Start over','重新開始'],['Progress is saved on this browser until you clear it.','作答進度會保存在此瀏覽器，直到你自行清除。'],['Browser storage is unavailable. Keep this tab open and download a backup.','瀏覽器無法儲存進度。請保持此分頁開啟，並下載答案備份。'],
 ['HOW IT WORKS','作答方式'],['Find the subject','找到主體'],['The yellow ring marks the intended focal point in the original photo.','原圖上的黃色圓環標示預期的對焦位置。'],['Compare the anonymous results','比較匿名結果'],['All results show the same scene. Their positions are randomized, and the method names are hidden.','所有結果都是同一個場景，排列位置隨機，且不顯示方法名稱。'],['Choose for each question','回答每一題'],['Judge focus and naturalness separately. Select one result for each question.','請分別評估對焦效果與自然程度，每題選擇一張結果。'],
 ['Use a laptop or desktop when possible. Zoom or drag directly on any photo; every result follows the same view. There are no right or wrong preferences.','建議使用筆記型或桌上型電腦。直接在任一圖片上縮放或拖曳，所有結果會同步顯示相同區域。偏好沒有標準答案。'],['Researcher setup →','研究者設定 →'],

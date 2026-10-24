@@ -8,14 +8,14 @@ const source=readFileSync(new URL('../admin/create-google-form.gs',import.meta.u
 const ctx=vm.createContext({});vm.runInContext(source,ctx);
 const collector={viewUrl:'https://docs.google.com/forms/d/e/test/viewform',entries:{session:'entry.1',refocus:'entry.2',bokeh:'entry.3',feedback:'entry.4'}};
 function record(seed=1,id='form-1',time='2026-10-24T10:00:00.000Z'){
- const s=newSession(config,seed);s.consentAt=s.startedAt;s.completedAt=s.startedAt;s.language='zh-Hant';s.feedback='中文 & English';
+ const s=newSession(config,seed);s.nickname='小明 Tester';s.consentAt=s.startedAt;s.completedAt=s.startedAt;s.language='zh-Hant';s.feedback='中文 & English';
  for(const t of s.trials){t.activeMs=2500;for(const q of config.blocks.find(b=>b.id===t.block).questions)t.answers[q.id]=t.order[0];}
  const url=new URL(formURL(s,config,collector));
  return {id,time,fields:Object.fromEntries(Object.entries(collector.entries).map(([k,e])=>[k,url.searchParams.get(e)]))};
 }
 const table=(records,mapping={})=>JSON.parse(JSON.stringify(ctx.tabulateFlashReFocus_(records,mapping)));
 test('Real participant Form payload expands to one respondent and all 48 correctly labeled answers',()=>{
- const r=record(),data=table([r]);assert.equal(data['答卷 Responses'][1][5],'valid');assert.equal(data['答卷 Responses'][1][8],30);assert.equal(data['答卷 Responses'][1][10],'中文 & English');assert.equal(data['逐題 Answers'].length,49);
+ const r=record(),data=table([r]);assert.equal(data['答卷 Responses'][1][5],'valid');assert.equal(data['答卷 Responses'][1][8],30);assert.equal(data['答卷 Responses'][1][10],'Nickname / 暱稱: 小明 Tester\n\n中文 & English');assert.equal(data['逐題 Answers'].length,49);
  for(const row of data['逐題 Answers'].slice(1)){assert.equal(row[8],'A');assert.equal(row[11].split('|')[0],row[9]);assert.equal(row[12],2500);}
  assert.equal(data['票數 Summary'].slice(1).reduce((n,r)=>n+r[6],0),48);
 });

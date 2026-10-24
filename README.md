@@ -19,6 +19,8 @@ Only `docs/` is published. Researcher/model-label pages, the private codebook, l
 
 ## Response collection
 
+入口必須填寫暱稱（1–40 字）並同意參與才可開始。暱稱保存在 JSON/CSV 和表單 metadata，並加在表單意見欄最前方，因此現有試算表也能直接看到，不需重建表單。
+
 已設定 Google Form 收答。參與者完成網站後，仍須在已填好的 Google 表單按「提交」；下載答案並不等同提交。正式招募前，請實際試填並驗證試算表收件。以下是重設收答表單的步驟。
 
 1. Follow [admin/SETUP.md](admin/SETUP.md) to create the Form and spreadsheet in your own Google account.
