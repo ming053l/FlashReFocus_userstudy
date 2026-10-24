@@ -1,0 +1,6 @@
+__pycache__/
+node_modules/
+responses/
+results/
+*.local
+.env*

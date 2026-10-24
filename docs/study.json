@@ -1,0 +1,484 @@
+{
+  "version": "flashrefocus-two-block-curated-v6-genrefocus-complete",
+  "mode": "pilot",
+  "collection": {
+    "type": "google-forms",
+    "viewUrl": "",
+    "entries": {}
+  },
+  "trials": [
+    {
+      "id": "lfdof-01",
+      "block": "refocus",
+      "candidates": [
+        {
+          "id": "1463d0276315bc30",
+          "src": "assets/1463d0276315bc30.webp"
+        },
+        {
+          "id": "4938ebf7bb220fe2",
+          "src": "assets/4938ebf7bb220fe2.webp"
+        },
+        {
+          "id": "73fd54a2fbc8ba41",
+          "src": "assets/73fd54a2fbc8ba41.webp"
+        },
+        {
+          "id": "74c2c22036453269",
+          "src": "assets/74c2c22036453269.png"
+        },
+        {
+          "id": "c5d57f5179721a26",
+          "src": "assets/c5d57f5179721a26.webp"
+        }
+      ],
+      "input": "assets/db09f2e0d994d44f.webp",
+      "width": 1008,
+      "height": 688,
+      "focus": {
+        "x": 0.7182539682539683,
+        "y": 0.8081395348837209
+      }
+    },
+    {
+      "id": "lfdof-06",
+      "block": "refocus",
+      "candidates": [
+        {
+          "id": "36e270596c6ad8c6",
+          "src": "assets/36e270596c6ad8c6.webp"
+        },
+        {
+          "id": "56a7695a8a5ae8bf",
+          "src": "assets/56a7695a8a5ae8bf.webp"
+        },
+        {
+          "id": "8071e4373eeb5cc8",
+          "src": "assets/8071e4373eeb5cc8.webp"
+        },
+        {
+          "id": "8c9be1221219584e",
+          "src": "assets/8c9be1221219584e.webp"
+        },
+        {
+          "id": "e01be17d24b6cf82",
+          "src": "assets/e01be17d24b6cf82.webp"
+        }
+      ],
+      "input": "assets/b21edde22acf034e.webp",
+      "width": 1008,
+      "height": 688,
+      "focus": {
+        "x": 0.5992063492063492,
+        "y": 0.8793604651162791
+      }
+    },
+    {
+      "id": "lfdof-08",
+      "block": "refocus",
+      "candidates": [
+        {
+          "id": "062cb03353442c33",
+          "src": "assets/062cb03353442c33.webp"
+        },
+        {
+          "id": "7b80861ccd6638f7",
+          "src": "assets/7b80861ccd6638f7.webp"
+        },
+        {
+          "id": "985bc591d3716fd1",
+          "src": "assets/985bc591d3716fd1.webp"
+        },
+        {
+          "id": "a1ecbaab9282a4d5",
+          "src": "assets/a1ecbaab9282a4d5.webp"
+        },
+        {
+          "id": "c2c68f6ebb75d2f3",
+          "src": "assets/c2c68f6ebb75d2f3.webp"
+        }
+      ],
+      "input": "assets/7c542074c9e49287.webp",
+      "width": 1008,
+      "height": 688,
+      "focus": {
+        "x": 0.6101190476190477,
+        "y": 0.27761627906976744
+      }
+    },
+    {
+      "id": "lfdof-22",
+      "block": "refocus",
+      "candidates": [
+        {
+          "id": "00e7ce3149be4395",
+          "src": "assets/00e7ce3149be4395.webp"
+        },
+        {
+          "id": "60989ff2774a0549",
+          "src": "assets/60989ff2774a0549.webp"
+        },
+        {
+          "id": "86a4367382d05460",
+          "src": "assets/86a4367382d05460.webp"
+        },
+        {
+          "id": "bf154ef84a3502fd",
+          "src": "assets/bf154ef84a3502fd.webp"
+        },
+        {
+          "id": "d207d927e9273a76",
+          "src": "assets/d207d927e9273a76.webp"
+        }
+      ],
+      "input": "assets/d3c1513571dd8703.webp",
+      "width": 1008,
+      "height": 688,
+      "focus": {
+        "x": 0.7728174603174603,
+        "y": 0.14825581395348839
+      }
+    },
+    {
+      "id": "lfdof-33",
+      "block": "refocus",
+      "candidates": [
+        {
+          "id": "0061f45a42545ebe",
+          "src": "assets/0061f45a42545ebe.webp"
+        },
+        {
+          "id": "52c74efc2ac1a931",
+          "src": "assets/52c74efc2ac1a931.webp"
+        },
+        {
+          "id": "63e3cf16d59c14d8",
+          "src": "assets/63e3cf16d59c14d8.webp"
+        },
+        {
+          "id": "cdf4bb6b94835b02",
+          "src": "assets/cdf4bb6b94835b02.webp"
+        },
+        {
+          "id": "d5adcd7db85f9a2a",
+          "src": "assets/d5adcd7db85f9a2a.webp"
+        }
+      ],
+      "input": "assets/58abb2f8c5b44ec8.webp",
+      "width": 1008,
+      "height": 688,
+      "focus": {
+        "x": 0.5982142857142857,
+        "y": 0.4636627906976744
+      }
+    },
+    {
+      "id": "lfdof-37",
+      "block": "refocus",
+      "candidates": [
+        {
+          "id": "32a67848581a8ea9",
+          "src": "assets/32a67848581a8ea9.webp"
+        },
+        {
+          "id": "4521e708ec247220",
+          "src": "assets/4521e708ec247220.webp"
+        },
+        {
+          "id": "454578662bc3af68",
+          "src": "assets/454578662bc3af68.webp"
+        },
+        {
+          "id": "9cea7370c7d49338",
+          "src": "assets/9cea7370c7d49338.webp"
+        },
+        {
+          "id": "c1532592664cc49e",
+          "src": "assets/c1532592664cc49e.webp"
+        }
+      ],
+      "input": "assets/7ab350cc2e5909b6.webp",
+      "width": 1008,
+      "height": 688,
+      "focus": {
+        "x": 0.7172619047619048,
+        "y": 0.3328488372093023
+      }
+    },
+    {
+      "id": "3creal-19",
+      "block": "bokeh",
+      "candidates": [
+        {
+          "id": "13a089e86d35cdda",
+          "src": "assets/13a089e86d35cdda.webp"
+        },
+        {
+          "id": "319b9b507995b9c9",
+          "src": "assets/319b9b507995b9c9.webp"
+        },
+        {
+          "id": "33f05b872defc72d",
+          "src": "assets/33f05b872defc72d.webp"
+        },
+        {
+          "id": "99100c9367456a38",
+          "src": "assets/99100c9367456a38.webp"
+        },
+        {
+          "id": "fcb436abaeaecff4",
+          "src": "assets/fcb436abaeaecff4.webp"
+        }
+      ],
+      "input": "assets/e563a0592687d69c.webp",
+      "reference": "assets/ce2b72e900819723.webp",
+      "width": 1024,
+      "height": 682,
+      "focus": {
+        "x": 0.696223870532704,
+        "y": 0.30344478216818643
+      }
+    },
+    {
+      "id": "3creal-32",
+      "block": "bokeh",
+      "candidates": [
+        {
+          "id": "05f3b94d89776bb6",
+          "src": "assets/05f3b94d89776bb6.webp"
+        },
+        {
+          "id": "6a1f4b2478249173",
+          "src": "assets/6a1f4b2478249173.webp"
+        },
+        {
+          "id": "74313986724d2327",
+          "src": "assets/74313986724d2327.webp"
+        },
+        {
+          "id": "c68ee9a6a409e77c",
+          "src": "assets/c68ee9a6a409e77c.webp"
+        },
+        {
+          "id": "f63c6d449fd76ab5",
+          "src": "assets/f63c6d449fd76ab5.webp"
+        }
+      ],
+      "input": "assets/87d38f3f7f7ba444.webp",
+      "reference": "assets/269c93ddda3040f6.webp",
+      "width": 1024,
+      "height": 677,
+      "focus": {
+        "x": 0.7668421052631579,
+        "y": 0.48168789808917195
+      }
+    },
+    {
+      "id": "3creal-35",
+      "block": "bokeh",
+      "candidates": [
+        {
+          "id": "2ffa00f7338ed63c",
+          "src": "assets/2ffa00f7338ed63c.webp"
+        },
+        {
+          "id": "aa7321a66136b9c9",
+          "src": "assets/aa7321a66136b9c9.webp"
+        },
+        {
+          "id": "e22c08abcbb39803",
+          "src": "assets/e22c08abcbb39803.webp"
+        },
+        {
+          "id": "eef765bbfcfa17aa",
+          "src": "assets/eef765bbfcfa17aa.webp"
+        },
+        {
+          "id": "f0a65a854ee0bc45",
+          "src": "assets/f0a65a854ee0bc45.webp"
+        }
+      ],
+      "input": "assets/15a450b865af0630.webp",
+      "reference": "assets/e92a00684e015920.webp",
+      "width": 1024,
+      "height": 677,
+      "focus": {
+        "x": 0.7636842105263157,
+        "y": 0.839171974522293
+      }
+    },
+    {
+      "id": "3creal-43",
+      "block": "bokeh",
+      "candidates": [
+        {
+          "id": "23ee9e585a6a02d7",
+          "src": "assets/23ee9e585a6a02d7.webp"
+        },
+        {
+          "id": "5281dcd806f86385",
+          "src": "assets/5281dcd806f86385.webp"
+        },
+        {
+          "id": "567cc17485022c9d",
+          "src": "assets/567cc17485022c9d.webp"
+        },
+        {
+          "id": "b6efc16788fb4cdd",
+          "src": "assets/b6efc16788fb4cdd.webp"
+        },
+        {
+          "id": "d9924ddca3140a54",
+          "src": "assets/d9924ddca3140a54.webp"
+        }
+      ],
+      "input": "assets/54abd76226d3a2b1.webp",
+      "reference": "assets/74e12920c2c9e9c3.webp",
+      "width": 1024,
+      "height": 677,
+      "focus": {
+        "x": 0.3773684210526316,
+        "y": 0.5318471337579618
+      }
+    },
+    {
+      "id": "3creal-72",
+      "block": "bokeh",
+      "candidates": [
+        {
+          "id": "2b61f0fb17d8392f",
+          "src": "assets/2b61f0fb17d8392f.webp"
+        },
+        {
+          "id": "4dc12b1a1e1ab53c",
+          "src": "assets/4dc12b1a1e1ab53c.webp"
+        },
+        {
+          "id": "7b49b5505914709a",
+          "src": "assets/7b49b5505914709a.webp"
+        },
+        {
+          "id": "991204b8917d6a89",
+          "src": "assets/991204b8917d6a89.webp"
+        },
+        {
+          "id": "d547694488adc15e",
+          "src": "assets/d547694488adc15e.webp"
+        }
+      ],
+      "input": "assets/b70455aa1268f58f.webp",
+      "reference": "assets/9a4c1dfcff4ec100.webp",
+      "width": 1024,
+      "height": 680,
+      "focus": {
+        "x": 0.7176409185803758,
+        "y": 0.5235849056603774
+      }
+    },
+    {
+      "id": "3creal-82",
+      "block": "bokeh",
+      "candidates": [
+        {
+          "id": "0a298d943d2b8d90",
+          "src": "assets/0a298d943d2b8d90.webp"
+        },
+        {
+          "id": "361b439e83a79001",
+          "src": "assets/361b439e83a79001.webp"
+        },
+        {
+          "id": "4c6b27d6a9a8009a",
+          "src": "assets/4c6b27d6a9a8009a.webp"
+        },
+        {
+          "id": "990d8bc7e8285392",
+          "src": "assets/990d8bc7e8285392.webp"
+        },
+        {
+          "id": "ccd30216b909b8f8",
+          "src": "assets/ccd30216b909b8f8.webp"
+        }
+      ],
+      "input": "assets/3c0b6a3d0da4504a.webp",
+      "reference": "assets/3b317bf8e42d0975.webp",
+      "width": 1024,
+      "height": 680,
+      "focus": {
+        "x": 0.534446764091858,
+        "y": 0.3694968553459119
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "id": "refocus",
+      "title": "Refocusing a photograph",
+      "description": "The original photo is partly out of focus. Compare attempts to bring the marked subject into focus.",
+      "count": 6,
+      "questions": [
+        {
+          "id": "focus",
+          "text": "Which result best brings the marked subject into focus?",
+          "help": "Look for clear, believable detail at the marked location."
+        },
+        {
+          "id": "fidelity",
+          "text": "Which result best preserves the identity and structure of the original scene?",
+          "help": "Compare with the original. Look for faithful objects, shapes, colors and textures rather than invented or altered content."
+        },
+        {
+          "id": "artifacts",
+          "text": "Which result has the fewest visible artifacts?",
+          "help": "Look for halos, ringing, doubled edges, distorted textures or unnatural transitions."
+        },
+        {
+          "id": "quality",
+          "text": "Which result would you prefer as the final photograph?",
+          "help": "Make an overall judgment of focus, naturalness and visual quality."
+        }
+      ]
+    },
+    {
+      "id": "bokeh",
+      "title": "Rendering depth of field",
+      "description": "The original photo is mostly sharp. Compare rendered versions with a shallow depth of field. The reference is a captured photograph of the intended effect.",
+      "count": 6,
+      "questions": [
+        {
+          "id": "naturalness",
+          "text": "Which result most naturally reproduces the reference depth of field?",
+          "help": "Compare the blur distribution, transitions and boundaries with the reference photograph."
+        },
+        {
+          "id": "preservation",
+          "text": "Which result best preserves the subject and scene details?",
+          "help": "Compare the marked subject with the original. Look for faithful detail, color and structure."
+        },
+        {
+          "id": "artifacts",
+          "text": "Which result has the fewest visible artifacts?",
+          "help": "Look for edge halos, color bleeding, ghosting, patchy blur or distorted textures."
+        },
+        {
+          "id": "quality",
+          "text": "Which result would you prefer as the final photograph?",
+          "help": "Make an overall judgment of the depth-of-field effect, scene fidelity and visual quality."
+        }
+      ]
+    }
+  ],
+  "responsePolicy": {
+    "allowTie": false,
+    "languages": [
+      "zh-Hant",
+      "en"
+    ]
+  },
+  "stimulusSelection": {
+    "kind": "curated",
+    "id": "curated-advantage-20261024-v1",
+    "representativeRandomSample": false
+  },
+  "protocolHash": "0c19980d11123f0b7b9ff06aff0f1ecef6d8e2ebca3449279a07d554e25fd5bb"
+}
