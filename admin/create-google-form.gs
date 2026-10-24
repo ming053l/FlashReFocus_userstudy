@@ -30,10 +30,22 @@ function createFlashReFocusForm() {
     form.setDescription('你已完成圖片比較，請直接按最下方「提交」。不需重新回答。\nYour answers are already filled. Scroll down and press Submit. No name or email is requested.');
     form.setCollectEmail(false).setLimitOneResponsePerUser(false).setPublishingSummary(false);
     form.setConfirmationMessage('已收到，謝謝！ / Your response has been recorded. Thank you!');
-    var sheetId = form.getDestinationId();
+    var sheetId = null;
+    try {
+      sheetId = form.getDestinationId();
+    } catch (error) {
+      // A new Form throws here instead of returning null (including zh-TW accounts).
+      // Other failures must surface; do not create a new spreadsheet on permission errors.
+      if (!/(?:no|not have|without).*destination|(?:沒有|未設定).*(?:回覆|回應).*目標/i.test(String(error))) throw error;
+    }
     if (!sheetId) {
-      var created = SpreadsheetApp.create('FlashReFocus — 回答與統計 / Responses and results');
-      sheetId = created.getId();
+      sheetId = props.getProperty('FLASHREFOCUS_SHEET_ID');
+      if (!sheetId) {
+        var created = SpreadsheetApp.create('FlashReFocus — 回答與統計 / Responses and results');
+        sheetId = created.getId();
+        // Save before linking so retrying an interrupted setup reuses this spreadsheet.
+        props.setProperty('FLASHREFOCUS_SHEET_ID', sheetId);
+      }
       form.setDestination(FormApp.DestinationType.SPREADSHEET, sheetId);
     }
     var book = SpreadsheetApp.openById(sheetId);
